@@ -234,7 +234,7 @@ class AddOption extends React.Component {
                             
                             
                             
-                            {this.props.options.length === 0 && <p className="widget__message"> Please select an option to get started </p>}
+                            {this.props.options.length === 0 && <p className="widget__message"> Please type in an option to get started </p>}
 
                                 {
                                     this.props.options.map((option, index) => {
